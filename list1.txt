@@ -1,0 +1,17 @@
+SELECT TOP 10 DisplayName, Age, Location 
+From Users
+WHERE Location = 'Victoria, BC' OR Location = 'Victoria, Canada'
+ORDER BY Age DESC
+
+DisplayName         Age Location         
+------------------- --- ---------------- 
+Cary Swoveland      74  Victoria, Canada 
+Amnon Michael Cohen 72  Victoria, Canada 
+粪便猴子             72  Victoria, Canada 
+Colin Houghton      61  Victoria, Canada 
+Michael Junkin      55  Victoria, Canada 
+mountaineer2525     54  Victoria, BC     
+Slumberthud         54  Victoria, Canada 
+Gordon Broom        51  Victoria, Canada 
+Gisway              49  Victoria, Canada 
+Sleette             48  Victoria, Canada 
