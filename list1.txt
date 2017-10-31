@@ -1,5 +1,5 @@
 SELECT TOP 10 DisplayName, Age, Location 
-From Users
+FROM Users
 WHERE Location = 'Victoria, BC' OR Location = 'Victoria, Canada'
 ORDER BY Age DESC
 
