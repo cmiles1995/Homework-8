@@ -1,0 +1,19 @@
+SELECT TOP 10 DisplayName, Reputation, TagName, Location
+FROM Users, Tags
+WHERE TagName = 'javascript'
+AND (Location = 'Victoria, BC'
+OR Location = 'Victoria, Canada')
+ORDER BY Reputation DESC
+
+DisplayName    Reputation TagName    Location         
+-------------- ---------- ---------- ---------------- 
+womp           95361      javascript Victoria, Canada 
+zombat         68674      javascript Victoria, Canada 
+Cary Swoveland 56121      javascript Victoria, Canada 
+brandonscript  28442      javascript Victoria, BC     
+Manfred Moser  22391      javascript Victoria, Canada 
+Peter          19667      javascript Victoria, Canada 
+Dave Jarvis    19040      javascript Victoria, Canada 
+Ryley          17330      javascript Victoria, Canada 
+Zac Thompson   10100      javascript Victoria, Canada 
+Bryan Kyle     9054       javascript Victoria, Canada 
